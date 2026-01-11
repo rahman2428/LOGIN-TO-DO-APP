@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO App Login</title>
+    <style>
+        body { background: linear-gradient(135deg, #050a9b, #8c4e15e1); font-family: 'Poppins', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; }
+        form { background: rgba(0, 0, 0, 0.2); padding: 30px; border-radius: 10px; width: 100%; max-width: 400px; }
+        .input-box { margin-bottom: 20px; display: flex; flex-direction: column; }
+        input { padding: 10px; border-radius: 5px; border: none; }
+        .btn { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; width: 100%; font-size: 1.2em; border-radius: 5px; }
+        .extra-links { margin-top: 15px; text-align: center; }
+        .extra-links a { color: #fff; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome To My TO-DO App</h1>
+    <h3>Created By:- ABADURRAHMAN</h3>
+
+    <form id="loginForm">
+        <div class="input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="input-box">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="extra-links">
+            <p><a href="Forgot-Password.html">Forgot Password?</a></p>
+            <p>Don't have an account? <a href="rahman-signUp.html">Sign up</a></p>
+        </div>
+    </form>
+
+    <script type="module" src="rahman-login.js"></script>
+</body>
+</html>
